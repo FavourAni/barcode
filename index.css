@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+}
+
+.container {
+    background-color: rgb(167, 180, 180);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uth {
+    background-color: white;
+    width: 20%;
+    margin-top: 5vw;
+    border-radius: 10px;
+}
+
+.barcode img {
+   height: 19vw;
+   border-radius: 10px;
+   width: 90%;
+   margin:auto;
+   display: block;
+   margin-top: 1vw;
+}
+
+.text-info{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.text-info h3 {
+    font-size: 1.5vw;
+}
+
+.text-info p {
+    font-size: 1vw;
+}
